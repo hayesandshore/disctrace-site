@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Simulator step 1: a disc heading into a net -->
+  <defs>
+    <pattern id="mesh" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="translate(58 14)">
+      <path d="M10 0H0V10" fill="none" stroke="#27313D" stroke-opacity=".45" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect x="58" y="14" width="50" height="90" rx="3" fill="url(#mesh)" stroke="#27313D" stroke-width="4"/>
+  <path d="M50 110H116" stroke="#27313D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M4 78C12 70 18 66 26 63" fill="none" stroke="#27313D" stroke-width="3" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <g transform="translate(36 58) rotate(-10)">
+    <ellipse cx="0" cy="3" rx="19" ry="7" fill="#141B22"/>
+    <ellipse cx="0" cy="0" rx="19" ry="7" fill="#27313D"/>
+    <ellipse cx="0" cy="-1.2" rx="5.5" ry="2.1" fill="#FFC629"/>
+  </g>
+  <ellipse cx="83" cy="58" rx="7" ry="10" fill="none" stroke="#C99700" stroke-width="2.5"/>
+</svg>

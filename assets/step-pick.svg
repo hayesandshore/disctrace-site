@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Simulator step 2: a pin on a globe -->
+  <circle cx="60" cy="72" r="42" fill="#FFFFFF" stroke="#27313D" stroke-width="3.5"/>
+  <ellipse cx="60" cy="72" rx="18" ry="42" fill="none" stroke="#27313D" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M18 72H102M24 52H96M24 92H96" stroke="#27313D" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M60 70C49 55 44 45 44 34A16 16 0 1 1 76 34C76 45 71 55 60 70Z" fill="#FFC629" stroke="#27313D" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="60" cy="34" r="5.5" fill="#27313D"/>
+</svg>

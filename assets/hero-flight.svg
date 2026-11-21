@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520">
+  <!-- Homepage graphic: the tag on a disc, the traced flight path, and a basket -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#27313D" stroke-opacity=".1" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="fade" cx="50%" cy="48%" r="58%">
+      <stop offset=".45" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="640" height="520" fill="url(#fade)"/></mask>
+    <linearGradient id="wake" x1="60" y1="450" x2="400" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC629" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFC629"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="520" fill="url(#grid)" mask="url(#gridmask)"/>
+
+  <!-- Ground line with ruler ticks -->
+  <path d="M24 474H616" stroke="#27313D" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 469H616" stroke="#27313D" stroke-opacity=".28" stroke-width="10" stroke-dasharray="2 38"/>
+
+  <!-- Release point and angle -->
+  <path d="M60 450H134" stroke="#27313D" stroke-opacity=".45" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <path d="M106 450A46 46 0 0 0 87.6 413.2" fill="none" stroke="#27313D" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Flight: yellow wake, measured trace, remaining path -->
+  <path d="M60 450C150 330 260 190 400 146L400 198C280 214 170 340 60 450Z" fill="url(#wake)"/>
+  <path d="M400 170C500 145 575 200 585 316" fill="none" stroke="#27313D" stroke-opacity=".5" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <path d="M60 450C150 330 260 190 400 170" fill="none" stroke="#27313D" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="116.5" cy="376.7" r="6" fill="#EEF1F3" stroke="#27313D" stroke-width="3"/>
+  <circle cx="178.2" cy="305.4" r="6" fill="#EEF1F3" stroke="#27313D" stroke-width="3"/>
+  <circle cx="245.8" cy="242.6" r="6" fill="#EEF1F3" stroke="#27313D" stroke-width="3"/>
+  <circle cx="60" cy="450" r="9" fill="#EEF1F3" stroke="#27313D" stroke-width="3"/>
+  <circle cx="60" cy="450" r="3" fill="#27313D"/>
+
+  <!-- Tracking brackets around the disc -->
+  <path d="M266 122V106H282M518 106H534V122M534 228V244H518M282 244H266V228" fill="none" stroke="#27313D" stroke-opacity=".5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Disc with the tag -->
+  <g transform="translate(400 170) rotate(-14)">
+    <path d="M-152 -12H-134M-164 4H-138M-150 20H-132" stroke="#27313D" stroke-opacity=".4" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="0" cy="9" rx="120" ry="38" fill="#141B22"/>
+    <ellipse cx="0" cy="0" rx="120" ry="38" fill="#27313D"/>
+    <ellipse cx="0" cy="-3" rx="98" ry="28" fill="#323E4C"/>
+    <path d="M-100 -11A104 30 0 0 1 -30 -31.7" fill="none" stroke="#EEF1F3" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-10 -18Q0 -23 10 -18" fill="none" stroke="#FFC629" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-18 -23Q0 -32 18 -23" fill="none" stroke="#FFC629" stroke-opacity=".6" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-1" rx="24" ry="8.5" fill="#C99700"/>
+    <ellipse cx="0" cy="-5" rx="24" ry="8.5" fill="#FFC629"/>
+    <ellipse cx="0" cy="-5" rx="11" ry="3.8" fill="none" stroke="#27313D" stroke-opacity=".55" stroke-width="2"/>
+  </g>
+
+  <!-- Basket -->
+  <ellipse cx="585" cy="474" rx="30" ry="5" fill="#27313D" fill-opacity=".2"/>
+  <path d="M585 328V472" stroke="#27313D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M559 334L581 398M572 334L583 398M598 334L587 398M611 334L589 398" stroke="#27313D" stroke-opacity=".55" stroke-width="1.6"/>
+  <rect x="555" y="322" width="60" height="12" rx="4" fill="#FFC629" stroke="#27313D" stroke-width="2.5"/>
+  <path d="M549 398H621L612 426H558Z" fill="#27313D"/>
+  <path d="M549 398H621" stroke="#FFC629" stroke-width="4" stroke-linecap="round"/>
+</svg>

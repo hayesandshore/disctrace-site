@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Step 2: a disc in flight with its path behind it -->
+  <path d="M12 106C28 66 52 42 80 34" fill="none" stroke="#27313D" stroke-width="3.5" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <circle cx="12" cy="106" r="6" fill="#FFFFFF" stroke="#27313D" stroke-width="3"/>
+  <g transform="translate(84 32) rotate(-14)">
+    <ellipse cx="0" cy="4" rx="32" ry="11" fill="#141B22"/>
+    <ellipse cx="0" cy="0" rx="32" ry="11" fill="#27313D"/>
+    <ellipse cx="0" cy="-1" rx="25" ry="7.5" fill="#323E4C"/>
+    <ellipse cx="0" cy="-2" rx="8" ry="3" fill="#FFC629"/>
+  </g>
+</svg>

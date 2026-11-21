@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Step 1: the tag sits at the centre of a disc -->
+  <circle cx="60" cy="60" r="50" fill="#27313D"/>
+  <circle cx="60" cy="60" r="42" fill="#323E4C"/>
+  <circle cx="60" cy="60" r="24" fill="none" stroke="#FFC629" stroke-width="2.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <circle cx="60" cy="60" r="14" fill="#FFC629"/>
+  <circle cx="60" cy="60" r="5.5" fill="none" stroke="#27313D" stroke-opacity=".6" stroke-width="2"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" width="720" height="460">
+  <!-- Simulator: a throw into an indoor net, continued on a virtual course in the app -->
+  <defs>
+    <pattern id="mesh" width="19" height="20" patternUnits="userSpaceOnUse" patternTransform="translate(290 96) skewY(11.89)">
+      <path d="M19 0H0V20" fill="none" stroke="#EEF1F3" stroke-opacity=".42" stroke-width="1.4"/>
+    </pattern>
+    <clipPath id="screen"><rect x="496" y="60" width="176" height="340" rx="20"/></clipPath>
+  </defs>
+
+  <rect width="720" height="460" rx="24" fill="#313D4B"/>
+
+  <!-- Floor -->
+  <path d="M40 404H450" stroke="#EEF1F3" stroke-opacity=".25" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Net -->
+  <path d="M290 356L272 376M404 380L426 402" stroke="#EEF1F3" stroke-width="5" stroke-linecap="round"/>
+  <path d="M290 96L404 120V380L290 356Z" fill="url(#mesh)" stroke="#EEF1F3" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Throw -->
+  <path d="M64 330C104 284 144 252 190 240" fill="none" stroke="#EEF1F3" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <circle cx="64" cy="330" r="8" fill="#313D4B" stroke="#EEF1F3" stroke-width="3"/>
+  <path d="M250 230L322 232" stroke="#EEF1F3" stroke-opacity=".55" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <g transform="translate(210 234) rotate(-10)">
+    <ellipse cx="0" cy="5" rx="36" ry="12" fill="#8E9BA8"/>
+    <ellipse cx="0" cy="0" rx="36" ry="12" fill="#EEF1F3"/>
+    <ellipse cx="0" cy="-1.5" rx="10" ry="3.6" fill="#FFC629" stroke="#27313D" stroke-width="1.4"/>
+  </g>
+  <ellipse cx="347" cy="238" rx="9" ry="13" fill="none" stroke="#FFC629" stroke-width="3"/>
+  <ellipse cx="347" cy="238" rx="20" ry="28" fill="none" stroke="#FFC629" stroke-opacity=".5" stroke-width="2.5"/>
+
+  <!-- The throw carries on in the app -->
+  <path d="M368 210C402 150 440 140 476 166" fill="none" stroke="#FFC629" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <path d="M472.8 154.1L478 168 464.1 166.6" fill="none" stroke="#FFC629" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Phone with a virtual hole seen from above -->
+  <rect x="486" y="50" width="196" height="360" rx="28" fill="#141B22" stroke="#EEF1F3" stroke-opacity=".45" stroke-width="2"/>
+  <rect x="496" y="60" width="176" height="340" rx="20" fill="#E1E6EA"/>
+  <g clip-path="url(#screen)">
+    <path d="M584 372C584 320 628 296 620 244C613 198 566 186 570 140" fill="none" stroke="#FFFFFF" stroke-width="46" stroke-linecap="round"/>
+    <g fill="#27313D" fill-opacity=".85">
+      <circle cx="524" cy="352" r="10"/>
+      <circle cx="540" cy="300" r="12"/>
+      <circle cx="522" cy="244" r="9"/>
+      <circle cx="552" cy="226" r="7"/>
+      <circle cx="524" cy="168" r="11"/>
+      <circle cx="648" cy="346" r="9"/>
+      <circle cx="652" cy="182" r="11"/>
+      <circle cx="630" cy="136" r="8"/>
+    </g>
+    <rect x="574" y="366" width="20" height="12" rx="2" fill="#27313D"/>
+    <path d="M620 244C614 206 572 190 570 152" fill="none" stroke="#27313D" stroke-opacity=".6" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+    <path d="M584 364C586 316 632 292 620 244" fill="none" stroke="#27313D" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="570" cy="138" r="17" fill="none" stroke="#27313D" stroke-opacity=".4" stroke-width="2" stroke-dasharray="2 5"/>
+    <circle cx="570" cy="138" r="9" fill="#FFC629" stroke="#27313D" stroke-width="3"/>
+    <circle cx="620" cy="244" r="9" fill="#27313D"/>
+    <circle cx="620" cy="244" r="3.4" fill="#FFC629"/>
+    <rect x="496" y="60" width="176" height="46" fill="#E1E6EA"/>
+    <circle cx="518" cy="86" r="7" fill="#FFC629" stroke="#27313D" stroke-width="2.5"/>
+    <rect x="534" y="80" width="88" height="12" rx="6" fill="#27313D" fill-opacity=".8"/>
+    <rect x="632" y="78" width="26" height="16" rx="8" fill="#27313D" fill-opacity=".25"/>
+  </g>
+</svg>

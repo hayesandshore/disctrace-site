@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Distance: a flight arc over a measured line (for dark backgrounds) -->
+  <path d="M10 74H86" stroke="#EEF1F3" stroke-width="3" stroke-linecap="round"/>
+  <path d="M10 65V83M86 65V83" stroke="#EEF1F3" stroke-width="3" stroke-linecap="round"/>
+  <path d="M29 70V78M48 70V78M67 70V78" stroke="#EEF1F3" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10 58C26 18 62 14 84 50" fill="none" stroke="#FFC629" stroke-width="3.5" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <circle cx="85" cy="53" r="6" fill="#FFC629" stroke="#27313D" stroke-width="1.5"/>
+</svg>
